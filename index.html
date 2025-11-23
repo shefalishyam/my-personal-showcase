@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Showcase</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f2f2f7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #8ec5fc 0%, #e0c3fc 100%);
+      color: #fff;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      margin-top: 8px;
+    }
+
+    /* Intro Section - Flexbox */
+    .intro {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #8ec5fc;
+    }
+
+    .bio {
+      max-width: 500px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    /* Showcase Grid */
+    .showcase-grid .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .item {
+      background: white;
+      padding: 30px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+    }
+
+    /* Interests Section */
+    .interest-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+.item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+    .card {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #e0c3fc;
+      color: #fff;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 700px) {
+      .intro {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>shefali</h1>
+    <p class="just a chill girl">Welcome to my personal showcase ✨</p>
+  </header>
+
+  <section class="Hi! I'm a first-year B.Tech CSE student at Mar Baselios College of Engineering, Thiruvananthapuram. I'm passionate about technology, creativity, and exploring new areas in computing. I'm still learning and growing, but I'm excited to build projects, improve my skills, and discover where my interests in coding and design will take me. Welcome to my personal showcase.">
+    <img src="myphoto.jpg.jpeg" alt="Profile Picture" class="profile-pic" />
+    <div class="bio">
+      <h2>About Me</h2>
+      <p>Hello! I'm a passionate student who loves coding,and exploring new creative ideas. This website showcases the things that inspire me..</p>
+    </div>
+  </section>
+
+  <section class="showcase-grid">
+    <h2 class="section-title">My Creations</h2>
+    <div class="grid">
+      <div class="item">🎨 Artwork</div>
+       <img src="art.jpg" Photo</div>
+      <div class="item"> 
+        <img src="photo 1.jpg" Photo</div>
+        <img src="photo 2.jpg" Photo</div>
+        
+      
+    </div>
+  </section>
+
+  <section class="interests">
+    <h2 class="section-title">My Interests</h2>
+    <div class="interest-cards">
+      <div class="card">Baking</div>
+      <div class="card">Coding</div>
+      <div class="card">Dancing</div>
+      <div class="card">Music</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>\"Keep growing, keep creating.\"</p>
+  </footer>
+</body>
+</html>
